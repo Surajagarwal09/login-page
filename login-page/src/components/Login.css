@@ -1,0 +1,46 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.loginitem{
+    display: flex;
+    margin-top: 200px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.head{
+    font-size: 50px;
+}
+form{
+    padding: 20px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    color: aliceblue;
+}
+label,input,#login{
+    font-size: 25px;
+    color: aliceblue;
+    background-color: rgb(3, 3, 40);
+    
+}
+#username,#password{
+    border-radius: 5px;
+    font-size: 23px;
+    border: 1px solid blue;
+}
+#password{
+    margin-top: 20px;
+}
+#login{
+    margin-top: 20px;
+    font-size: 25px;
+    border: 1px solid blue;
+    cursor: pointer;
+    padding:5px;
+    width: 100px;
+    border-radius: 10px;
+}
+#link{
+    font-size: 25px;
+    cursor: pointer;
+}

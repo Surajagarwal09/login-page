@@ -1,0 +1,35 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+
+}
+#head{
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+#logout{
+    font-size: 20px;
+    margin-right: 30px;
+    border: 1px solid blue;
+    background-color: transparent;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 5px;
+    width: 80px;
+    cursor: pointer;
+}
+.welcome{
+    color:aliceblue;
+    font-size: 50px;
+    margin-top: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
